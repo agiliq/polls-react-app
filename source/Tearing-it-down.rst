@@ -2,7 +2,7 @@ Tearing it down
 ===================
 Let's shut down the app with CTRL+C and strip out everything but the server and see how we got here:
 
-.. image:: startting-point.png
+.. image:: starting-point.png
 
 This removes the files inside client/.
 

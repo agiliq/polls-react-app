@@ -32,7 +32,7 @@ Ultimately, we'll want to boot concurrently like this:
 
 This will be our start command. Let's add the start and client commands to our package.json now:
 
-.. code-block:: json
+.. code-block:: python
 	
 	"scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
