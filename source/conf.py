@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'polls-react-app'
-copyright = u'2018, krishna'
-author = u'krishna'
+project = u'Building React API app'
+copyright = u'2018, Agiliq'
+author = u'Agiliq'
 
 # The short X.Y version
 version = u''
@@ -83,7 +83,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -137,8 +137,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'polls-react-app.tex', u'polls-react-app Documentation',
-     u'krishna', 'manual'),
+    (master_doc, 'PollsReactApp.tex', u'Sample React API App Documentation',
+     u'Agiliq', 'manual'),
 ]
 
 
@@ -147,7 +147,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'polls-react-app', u'polls-react-app Documentation',
+    (master_doc, 'building a pollsreactapp', u'Sample React API App Documentation',
      [author], 1)
 ]
 
@@ -158,7 +158,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'polls-react-app', u'polls-react-app Documentation',
+    (master_doc, 'polls-react-app', u'Sample React API App Documentation',
      author, 'polls-react-app', 'One line description of project.',
      'Miscellaneous'),
 ]

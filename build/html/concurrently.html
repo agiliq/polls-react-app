@@ -1,39 +1,173 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Concurrently &#8212; polls-react-app  documentation</title>
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <script type="text/javascript" src="_static/documentation_options.js"></script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Concurrently &mdash; Building React API app  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="Building React API app  documentation" href="index.html"/>
+        <link rel="next" title="The app’s React components" href="the-app&#39;s-react-components.html"/>
+        <link rel="prev" title="The Rub" href="the-rub.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
    
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+  <div class="wy-grid-for-nav">
 
-  </head><body>
-  
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body" role="main">
+          
+            <a href="index.html" class="icon icon-home"> Building React API app
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="creating-react-app-API.html">How to get “react-app” to work with your API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Getting-started.html">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Tearing-it-down.html">Tearing it down</a></li>
+<li class="toctree-l1"><a class="reference internal" href="the-server.html">The server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="here-we-go.html">Here we go</a></li>
+<li class="toctree-l1"><a class="reference internal" href="react-scripts.html">react-scripts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="the-rub.html">The Rub</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Concurrently</a></li>
+<li class="toctree-l1"><a class="reference internal" href="the-app's-react-components.html">The app’s React components</a></li>
+<li class="toctree-l1"><a class="reference internal" href="setting-up-the-proxy.html">Setting up the proxy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="testing-it-out.html">Testing it out</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Building React API app</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Concurrently</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/concurrently.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
             
   <div class="section" id="concurrently">
 <h1>Concurrently<a class="headerlink" href="#concurrently" title="Permalink to this headline">¶</a></h1>
 <p>Concurrently is a utility for running multiple processes. We’ll see how it works by implementing it.</p>
 <p>Make sure you’re in the top-level directory and install it with npm:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ npm i --save-dev concurrently
+</pre></div>
+</div>
 <p>We want concurrently to execute two commands, one to boot the API server and one to boot the Webpack development server. You boot multiple commands by passing them to concurrently in quotes like this:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ concurrently <span class="s2">&quot;command1&quot;</span> <span class="s2">&quot;command2&quot;</span>
 </pre></div>
@@ -45,12 +179,15 @@
 <p>Note the second command for booting the client first changes into the client directory and then runs npm start.</p>
 <p>However, the &amp;&amp; operator is not cross-platform (doesn’t work on Windows). As such, we’ve included a start-client.js script with the project. This script will boot the client from the top-level directory in a manner that is cross-platform.</p>
 <p>Ultimately, we’ll want to boot concurrently like this:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ concurrently <span class="s2">&quot;npm run server&quot;</span> <span class="s2">&quot;npm run client&quot;</span>
+</pre></div>
+</div>
 <p>This will be our start command. Let’s add the start and client commands to our package.json now:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>      <span class="s2">&quot;scripts&quot;</span><span class="p">:</span> <span class="p">{</span>
-  <span class="s2">&quot;start&quot;</span><span class="p">:</span> <span class="s2">&quot;concurrently </span><span class="se">\&quot;</span><span class="s2">npm run server</span><span class="se">\&quot;</span><span class="s2"> </span><span class="se">\&quot;</span><span class="s2">npm run client</span><span class="se">\&quot;</span><span class="s2">&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;server&quot;</span><span class="p">:</span> <span class="s2">&quot;node server.js&quot;</span><span class="p">,</span>
-  <span class="s2">&quot;client&quot;</span><span class="p">:</span> <span class="s2">&quot;node start-client.js&quot;</span>
-<span class="p">},</span>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span>      &quot;scripts&quot;: {
+  &quot;start&quot;: &quot;concurrently \&quot;npm run server\&quot; \&quot;npm run client\&quot;&quot;,
+  &quot;server&quot;: &quot;node server.js&quot;,
+  &quot;client&quot;: &quot;node start-client.js&quot;
+},
 </pre></div>
 </div>
 <p>For start, we execute both commands, escaping the quotes because we’re in a JSON file. For client, we execute the start-client.js script with node.</p>
@@ -59,54 +196,76 @@
 </div>
 
 
+           </div>
+           <div class="articleComments">
+            
+           </div>
           </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="the-app&#39;s-react-components.html" class="btn btn-neutral float-right" title="The app’s React components" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="the-rub.html" class="btn btn-neutral" title="The Rub" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Agiliq.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
         </div>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper"><div class="relations">
-<h3>Related Topics</h3>
-<ul>
-  <li><a href="index.html">Documentation overview</a><ul>
-  </ul></li>
-</ul>
-</div>
-  <div role="note" aria-label="source link">
-    <h3>This Page</h3>
-    <ul class="this-page-menu">
-      <li><a href="_sources/concurrently.rst.txt"
-            rel="nofollow">Show Source</a></li>
-    </ul>
-   </div>
-<div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
-    </div>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
-        </div>
-      </div>
-      <div class="clearer"></div>
-    </div>
-    <div class="footer">
-      &copy;2018, krishna.
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.2</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
-      
-      |
-      <a href="_sources/concurrently.rst.txt"
-          rel="nofollow">Page source</a>
-    </div>
 
-    
+    </section>
 
-    
-  </body>
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
 </html>

@@ -1,14 +1,29 @@
-.. polls-react-app documentation master file, created by
-   sphinx-quickstart on Thu Mar 29 13:15:38 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 Welcome to polls-react-app's documentation!
 ===========================================
 
+How to get "create-react-app" to work with your API
+
+Chapters:
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+
+   creating-react-app-API
+   enter-create-react-app
+   Getting-started
+   Tearing-it-down
+   the-server
+   here-we-go
+   react-scripts
+   the-rub
+   concurrently
+   the-app's-react-components
+   setting-up-the-proxy
+   testing-it-out
+   deployment
+
+
 
 
 

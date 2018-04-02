@@ -6,6 +6,7 @@ Concurrently is a utility for running multiple processes. We'll see how it works
 Make sure you're in the top-level directory and install it with npm:
 
 .. code-block:: bash
+
 	$ npm i --save-dev concurrently
 
 We want concurrently to execute two commands, one to boot the API server and one to boot the Webpack development server. You boot multiple commands by passing them to concurrently in quotes like this:
@@ -28,11 +29,12 @@ However, the && operator is not cross-platform (doesn't work on Windows). As suc
 Ultimately, we'll want to boot concurrently like this:
 
 .. code-block:: bash
+
 	$ concurrently "npm run server" "npm run client"
 
 This will be our start command. Let's add the start and client commands to our package.json now:
 
-.. code-block:: python
+.. code-block:: json
 	
 	"scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",

@@ -6,6 +6,7 @@ In this post, we detail how to use the create-react-app project along with an AP
 Anyone who tells you that React is easy to get started with isn't lying. You can drop React into your production application, today. All you have to do is include React and ReactDOM in some script tags:
 
 .. code-block:: html
+
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.2.1/react-dom.min.js'></script>
 
