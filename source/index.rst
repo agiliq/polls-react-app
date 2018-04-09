@@ -11,24 +11,13 @@ Chapters:
 
    creating-react-app-API
    enter-create-react-app
-   Getting-started
-   Tearing-it-down
-   the-server
-   here-we-go
    react-scripts
-   the-rub
-   concurrently
-   the-app's-react-components
-   setting-up-the-proxy
-   testing-it-out
-   deployment
+   CORS
+   Frontend
+   DRF-React
+   datafile
+   conclusion
 
-
-
-
-
-Indices and tables
-==================
 
 * :ref:`genindex`
 * :ref:`modindex`
